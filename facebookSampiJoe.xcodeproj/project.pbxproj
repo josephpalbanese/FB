@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8B79A331CF78F3F00E9F5C4 /* Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B79A321CF78F3F00E9F5C4 /* Common.swift */; };
+		E8B79A351CF78F8F00E9F5C4 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8B79A341CF78F8F00E9F5C4 /* LogInViewController.swift */; };
+		E8DC467F1D151718007F44A9 /* PhotoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC467E1D151718007F44A9 /* PhotoDetailViewController.swift */; };
+		E8DC46821D152671007F44A9 /* BaseTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC46801D152671007F44A9 /* BaseTransition.swift */; };
+		E8DC46831D152671007F44A9 /* FadeTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC46811D152671007F44A9 /* FadeTransition.swift */; };
+		E8DC46851D1533AD007F44A9 /* ImageTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8DC46841D1533AD007F44A9 /* ImageTransition.swift */; };
+		E8DDF3571D1910A400EC805F /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = E8DDF3561D1910A400EC805F /* README.md */; };
 		E8F827FC1CEE557700A060D0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F827FB1CEE557700A060D0 /* AppDelegate.swift */; };
 		E8F827FE1CEE557800A060D0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F827FD1CEE557800A060D0 /* ViewController.swift */; };
 		E8F828011CEE557800A060D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F827FF1CEE557800A060D0 /* Main.storyboard */; };
@@ -14,6 +21,15 @@
 		E8F828061CEE557800A060D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8F828041CEE557800A060D0 /* LaunchScreen.storyboard */; };
 		E8F828111CEE557800A060D0 /* facebookSampiJoeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828101CEE557800A060D0 /* facebookSampiJoeTests.swift */; };
 		E8F8281C1CEE557800A060D0 /* facebookSampiJoeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8281B1CEE557800A060D0 /* facebookSampiJoeUITests.swift */; };
+		E8F8282C1CEE5A4700A060D0 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8282B1CEE5A4700A060D0 /* FeedViewController.swift */; };
+		E8F8282E1CEE5E6F00A060D0 /* RequestsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8282D1CEE5E6F00A060D0 /* RequestsViewController.swift */; };
+		E8F828301CEE615700A060D0 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8282F1CEE615700A060D0 /* MessagesViewController.swift */; };
+		E8F828321CEE62A300A060D0 /* NotificationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828311CEE62A300A060D0 /* NotificationsViewController.swift */; };
+		E8F828341CEE640800A060D0 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828331CEE640800A060D0 /* SettingsViewController.swift */; };
+		E8F828361CEE666100A060D0 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828351CEE666100A060D0 /* DetailViewController.swift */; };
+		E8F828381CEE6BC800A060D0 /* statusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828371CEE6BC800A060D0 /* statusViewController.swift */; };
+		E8F8283A1CEE6CB600A060D0 /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F828391CEE6CB600A060D0 /* PhotoViewController.swift */; };
+		E8F8283C1CEE6DB800A060D0 /* CheckinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8F8283B1CEE6DB800A060D0 /* CheckinViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E8B79A321CF78F3F00E9F5C4 /* Common.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Common.swift; sourceTree = "<group>"; };
+		E8B79A341CF78F8F00E9F5C4 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		E8DC467E1D151718007F44A9 /* PhotoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDetailViewController.swift; sourceTree = "<group>"; };
+		E8DC46801D152671007F44A9 /* BaseTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseTransition.swift; sourceTree = "<group>"; };
+		E8DC46811D152671007F44A9 /* FadeTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FadeTransition.swift; sourceTree = "<group>"; };
+		E8DC46841D1533AD007F44A9 /* ImageTransition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTransition.swift; sourceTree = "<group>"; };
+		E8DDF3561D1910A400EC805F /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E8F827F81CEE557700A060D0 /* facebookSampiJoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = facebookSampiJoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F827FB1CEE557700A060D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8F827FD1CEE557800A060D0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +70,15 @@
 		E8F828171CEE557800A060D0 /* facebookSampiJoeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = facebookSampiJoeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F8281B1CEE557800A060D0 /* facebookSampiJoeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = facebookSampiJoeUITests.swift; sourceTree = "<group>"; };
 		E8F8281D1CEE557800A060D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8F8282B1CEE5A4700A060D0 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		E8F8282D1CEE5E6F00A060D0 /* RequestsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestsViewController.swift; sourceTree = "<group>"; };
+		E8F8282F1CEE615700A060D0 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		E8F828311CEE62A300A060D0 /* NotificationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationsViewController.swift; sourceTree = "<group>"; };
+		E8F828331CEE640800A060D0 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		E8F828351CEE666100A060D0 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		E8F828371CEE6BC800A060D0 /* statusViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = statusViewController.swift; path = ../statusViewController.swift; sourceTree = "<group>"; };
+		E8F828391CEE6CB600A060D0 /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
+		E8F8283B1CEE6DB800A060D0 /* CheckinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckinViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +109,7 @@
 		E8F827EF1CEE557700A060D0 = {
 			isa = PBXGroup;
 			children = (
+				E8DDF3561D1910A400EC805F /* README.md */,
 				E8F827FA1CEE557700A060D0 /* facebookSampiJoe */,
 				E8F8280F1CEE557800A060D0 /* facebookSampiJoeTests */,
 				E8F8281A1CEE557800A060D0 /* facebookSampiJoeUITests */,
@@ -97,9 +130,24 @@
 		E8F827FA1CEE557700A060D0 /* facebookSampiJoe */ = {
 			isa = PBXGroup;
 			children = (
+				E8F828371CEE6BC800A060D0 /* statusViewController.swift */,
 				E8F827FB1CEE557700A060D0 /* AppDelegate.swift */,
 				E8F827FD1CEE557800A060D0 /* ViewController.swift */,
 				E8F827FF1CEE557800A060D0 /* Main.storyboard */,
+				E8DC467E1D151718007F44A9 /* PhotoDetailViewController.swift */,
+				E8B79A341CF78F8F00E9F5C4 /* LogInViewController.swift */,
+				E8F8283B1CEE6DB800A060D0 /* CheckinViewController.swift */,
+				E8F828391CEE6CB600A060D0 /* PhotoViewController.swift */,
+				E8DC46801D152671007F44A9 /* BaseTransition.swift */,
+				E8DC46811D152671007F44A9 /* FadeTransition.swift */,
+				E8B79A321CF78F3F00E9F5C4 /* Common.swift */,
+				E8F828351CEE666100A060D0 /* DetailViewController.swift */,
+				E8F828331CEE640800A060D0 /* SettingsViewController.swift */,
+				E8F828311CEE62A300A060D0 /* NotificationsViewController.swift */,
+				E8F8282F1CEE615700A060D0 /* MessagesViewController.swift */,
+				E8F8282D1CEE5E6F00A060D0 /* RequestsViewController.swift */,
+				E8F8282B1CEE5A4700A060D0 /* FeedViewController.swift */,
+				E8DC46841D1533AD007F44A9 /* ImageTransition.swift */,
 				E8F828021CEE557800A060D0 /* Assets.xcassets */,
 				E8F828041CEE557800A060D0 /* LaunchScreen.storyboard */,
 				E8F828071CEE557800A060D0 /* Info.plist */,
@@ -256,8 +304,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8F828381CEE6BC800A060D0 /* statusViewController.swift in Sources */,
+				E8DC46821D152671007F44A9 /* BaseTransition.swift in Sources */,
+				E8F828301CEE615700A060D0 /* MessagesViewController.swift in Sources */,
 				E8F827FE1CEE557800A060D0 /* ViewController.swift in Sources */,
+				E8F828341CEE640800A060D0 /* SettingsViewController.swift in Sources */,
+				E8B79A331CF78F3F00E9F5C4 /* Common.swift in Sources */,
+				E8DDF3571D1910A400EC805F /* README.md in Sources */,
+				E8F8282C1CEE5A4700A060D0 /* FeedViewController.swift in Sources */,
+				E8B79A351CF78F8F00E9F5C4 /* LogInViewController.swift in Sources */,
+				E8F828321CEE62A300A060D0 /* NotificationsViewController.swift in Sources */,
+				E8F8282E1CEE5E6F00A060D0 /* RequestsViewController.swift in Sources */,
+				E8DC46831D152671007F44A9 /* FadeTransition.swift in Sources */,
 				E8F827FC1CEE557700A060D0 /* AppDelegate.swift in Sources */,
+				E8DC467F1D151718007F44A9 /* PhotoDetailViewController.swift in Sources */,
+				E8F8283C1CEE6DB800A060D0 /* CheckinViewController.swift in Sources */,
+				E8F828361CEE666100A060D0 /* DetailViewController.swift in Sources */,
+				E8F8283A1CEE6CB600A060D0 /* PhotoViewController.swift in Sources */,
+				E8DC46851D1533AD007F44A9 /* ImageTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -482,6 +546,7 @@
 				E8F828221CEE557800A060D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F828231CEE557800A060D0 /* Build configuration list for PBXNativeTarget "facebookSampiJoeTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +555,7 @@
 				E8F828251CEE557800A060D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8F828261CEE557800A060D0 /* Build configuration list for PBXNativeTarget "facebookSampiJoeUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +564,7 @@
 				E8F828281CEE557800A060D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
